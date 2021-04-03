@@ -94,6 +94,11 @@ button.google__search {
     font-size: 14px;
     margin-right: 10px;
 }
+button.google__search:hover {
+    border: solid;
+    border-color: darkslategrey;
+
+}
 
 button.lucky__search {
     background-color: #F8F9FA;
@@ -106,6 +111,11 @@ button.lucky__search {
     text-decoration: none;
     display: inline-block;
     font-size: 14px;
+}
+
+button.lucky__search:hover {
+    border: solid;
+    border-color: darkslategrey;
 }
 
 #footing-container {
@@ -121,7 +131,7 @@ button.lucky__search {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     padding: 25px;
-    font-size: 15px;
+    font-size: 14px;
 
 }
 
@@ -129,34 +139,34 @@ button.lucky__search {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     padding-right: 25px;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .footer__searchWorks {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     padding-right: 1295px;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .footer__privacy {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     padding-right: 25px;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .footer__terms {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     padding-right: 25px;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .footer__settings {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 14px;
 }
 #content-spacing{  /* footer spacing */
     border:none;
@@ -166,3 +176,6 @@ button.lucky__search {
     text-decoration: none;
     color: darkslategrey;
    }
+a:hover {
+    text-decoration: underline;
+}
