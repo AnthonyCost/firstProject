@@ -69,6 +69,7 @@ font-size: 15px;
     margin-left: 30px;
     width: 580px;
     height: 40px;
+    outline: none;
 }
 
 #buttons-container {
@@ -108,40 +109,60 @@ button.lucky__search {
 }
 
 #footing-container {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    position:fixed;
+    display: inline-block;
+    display: -moz-inline-box;
     margin-top: 430px;
-    width: 22%;
-    background-color: #F2F2F2;
+    width: 1900px;
+
 }
 
 .footer_advert {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 25px;
+    font-size: 15px;
+
 }
 
 .footer__business {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
+    padding-right: 25px;
+    font-size: 15px;
 }
 
 .footer__searchWorks {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
+    padding-right: 1295px;
+    font-size: 15px;
 }
 
 .footer__privacy {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
+    padding-right: 25px;
+    font-size: 15px;
 }
 
 .footer__terms {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
+    padding-right: 25px;
+    font-size: 15px;
 }
 
 .footer__settings {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }
+#content-spacing{  /* footer spacing */
+    border:none;
+    height:10px;
+  }
+  a:visited {
+    text-decoration: none;
+    color: darkslategrey;
+   }
