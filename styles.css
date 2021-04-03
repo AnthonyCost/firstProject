@@ -1,0 +1,56 @@
+.nav__about {
+position: fixed;
+padding: 10px;
+text-decoration: none;
+font-family: arial 10px;
+}
+
+.nav__store {
+position: fixed;
+left: 70px;
+padding:10px;
+text-decoration: none;
+font-family: arial 10px;
+}
+
+.nav__gmail {
+position: fixed;
+left: 1665px;
+padding: 10px;
+text-decoration: none;
+font-family: arial 10px;
+}
+
+.nav__images {
+position: fixed;
+left: 1720px;
+padding:10px;
+text-decoration: none;
+font-family: arial 10px;
+}
+
+.nav__profile {
+    height: 60px;
+    position: fixed;
+    left: 1800px;
+    top: -2px;
+}
+
+#center-logo-container {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}
+
+
+#search-bar-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 34%;
+}
+
+.search__bar {
+    width: 600px;
+}
