@@ -40,7 +40,12 @@ font-family: arial 10px;
     display:block;
     margin-left: auto;
     margin-right: auto;
-    width: 35%;
+    width: 16%;
+}
+
+#center-logo {
+    height: 105px;
+    margin-top: 235px;
 }
 
 
@@ -52,5 +57,12 @@ font-family: arial 10px;
 }
 
 .search__bar {
-    width: 600px;
+    border-radius: 50px;
+    border-color: lightgray;
+    border-style:solid;
+    border-width: 1px;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 580px;
+    height: 40px;
 }
