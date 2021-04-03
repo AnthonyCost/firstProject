@@ -66,3 +66,38 @@ font-family: arial 10px;
     width: 580px;
     height: 40px;
 }
+
+#buttons-container {
+    display: block;
+    margin-left: 820px;
+    margin-top: 20px;
+    
+}
+
+
+
+button.google__search {
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    color:darkslategrey;
+    padding: 10px 10px;
+    font-family: arial;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+button.lucky__search {
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    color:darkslategrey;
+    padding: 10px 10px;
+    font-family: arial;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
