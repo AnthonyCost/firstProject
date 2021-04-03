@@ -2,7 +2,8 @@
 position: fixed;
 padding: 10px;
 text-decoration: none;
-font-family: arial 10px;
+font-family: Arial, Helvetica;
+font-size: 15px;
 }
 
 .nav__store {
@@ -10,7 +11,8 @@ position: fixed;
 left: 70px;
 padding:10px;
 text-decoration: none;
-font-family: arial 10px;
+font-family: Arial, Helvetica;
+font-size: 15px;
 }
 
 .nav__gmail {
@@ -18,7 +20,8 @@ position: fixed;
 left: 1665px;
 padding: 10px;
 text-decoration: none;
-font-family: arial 10px;
+font-family: Arial, Helvetica;
+font-size: 15px;
 }
 
 .nav__images {
@@ -26,14 +29,15 @@ position: fixed;
 left: 1720px;
 padding:10px;
 text-decoration: none;
-font-family: arial 10px;
+font-family: Arial, Helvetica;
+font-size: 15px;
 }
 
 .nav__profile {
-    height: 60px;
+    height: 50px;
     position: fixed;
     left: 1800px;
-    top: -2px;
+    top: 5px;
 }
 
 #center-logo-container {
@@ -71,33 +75,34 @@ font-family: arial 10px;
     display: block;
     margin-left: 820px;
     margin-top: 20px;
-    
+
 }
 
 
 
 button.google__search {
-    background-color: whitesmoke;
+    background-color: #F8F9FA;
     border: none;
     border-radius: 5px;
     color:darkslategrey;
-    padding: 10px 10px;
+    padding: 10px 15px;
     font-family: arial;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
+    margin-right: 10px;
 }
 
 button.lucky__search {
-    background-color: whitesmoke;
+    background-color: #F8F9FA;
     border: none;
     border-radius: 5px;
     color:darkslategrey;
-    padding: 10px 10px;
+    padding: 10px 15px;
     font-family: arial;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
 }
