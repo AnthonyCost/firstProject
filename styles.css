@@ -111,5 +111,36 @@ button.lucky__search {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 430px;
     width: 22%;
+}
+
+.footer_advert {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer__business {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer__searchWorks {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer__privacy {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer__terms {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer__settings {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
