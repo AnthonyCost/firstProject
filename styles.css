@@ -96,7 +96,8 @@ button.google__search {
 }
 button.google__search:hover {
     border: solid;
-    border-color: darkslategrey;
+    border-width: 1px;
+    border-color: lightgrey;
 
 }
 
@@ -115,7 +116,8 @@ button.lucky__search {
 
 button.lucky__search:hover {
     border: solid;
-    border-color: darkslategrey;
+    border-width: 1px;
+    border-color: lightgray;
 }
 
 #footing-container {
