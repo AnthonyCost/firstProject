@@ -106,3 +106,10 @@ button.lucky__search {
     display: inline-block;
     font-size: 14px;
 }
+
+#footing-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 44%;
+}
