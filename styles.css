@@ -179,3 +179,6 @@ button.lucky__search:hover {
 a:hover {
     text-decoration: underline;
 }
+input.search__bar {
+    padding: 0 20px;
+}
