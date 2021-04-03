@@ -1,6 +1,6 @@
 .nav__about {
 position: fixed;
-padding: 10px;
+padding: 15px;
 text-decoration: none;
 font-family: Arial, Helvetica;
 font-size: 15px;
@@ -9,7 +9,7 @@ font-size: 15px;
 .nav__store {
 position: fixed;
 left: 70px;
-padding:10px;
+padding:15px;
 text-decoration: none;
 font-family: Arial, Helvetica;
 font-size: 15px;
@@ -18,7 +18,7 @@ font-size: 15px;
 .nav__gmail {
 position: fixed;
 left: 1665px;
-padding: 10px;
+padding: 15px;
 text-decoration: none;
 font-family: Arial, Helvetica;
 font-size: 15px;
@@ -27,7 +27,7 @@ font-size: 15px;
 .nav__images {
 position: fixed;
 left: 1720px;
-padding:10px;
+padding:15px;
 text-decoration: none;
 font-family: Arial, Helvetica;
 font-size: 15px;
