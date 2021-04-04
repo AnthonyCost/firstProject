@@ -1,3 +1,4 @@
+/* About link in the nav */
 .nav__about {
 position: fixed;
 padding: 15px;
@@ -5,7 +6,7 @@ text-decoration: none;
 font-family: Arial, Helvetica;
 font-size: 15px;
 }
-
+/* Store link in the nav */
 .nav__store {
 position: fixed;
 left: 70px;
@@ -14,7 +15,7 @@ text-decoration: none;
 font-family: Arial, Helvetica;
 font-size: 15px;
 }
-
+/* Gmail link in the nav */
 .nav__gmail {
 position: fixed;
 left: 1665px;
@@ -23,7 +24,7 @@ text-decoration: none;
 font-family: Arial, Helvetica;
 font-size: 15px;
 }
-
+/* Images link in the nav */
 .nav__images {
 position: fixed;
 left: 1720px;
@@ -32,34 +33,33 @@ text-decoration: none;
 font-family: Arial, Helvetica;
 font-size: 15px;
 }
-
+/* Profile picture in the nav */
 .nav__profile {
     height: 50px;
     position: fixed;
     left: 1800px;
     top: 5px;
 }
-
+/* Google logo container div */
 #center-logo-container {
     display:block;
     margin-left: auto;
     margin-right: auto;
     width: 16%;
 }
-
+/* Google logo */
 #center-logo {
     height: 105px;
     margin-top: 235px;
 }
-
-
+/* Search bar container div */
 #search-bar-container {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 34%;
 }
-
+/* Search bar */
 .search__bar {
     border-radius: 50px;
     border-color: lightgray;
@@ -71,16 +71,17 @@ font-size: 15px;
     height: 40px;
     outline: none;
 }
-
+/* Input padding for start of text */
+input.search__bar {
+    padding: 0 20px;
+}
+/* Buttons container div */
 #buttons-container {
     display: block;
     margin-left: 820px;
     margin-top: 20px;
-
 }
-
-
-
+/* Google search button */
 button.google__search {
     background-color: #F8F9FA;
     border: none;
@@ -94,13 +95,14 @@ button.google__search {
     font-size: 14px;
     margin-right: 10px;
 }
+/* Google search button hover */
 button.google__search:hover {
     border: solid;
     border-width: 1px;
     border-color: lightgrey;
 
 }
-
+/* Feeling Lucky button */
 button.lucky__search {
     background-color: #F8F9FA;
     border: none;
@@ -113,13 +115,21 @@ button.lucky__search {
     display: inline-block;
     font-size: 14px;
 }
-
+/* Feeling lucky button hover */
 button.lucky__search:hover {
     border: solid;
     border-width: 1px;
     border-color: lightgray;
 }
-
+/* Feeling lucky response styling */
+#feeling-lucky-response {
+    margin-left: 825px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: darkslategrey;
+}
+/* Footing container div */
 #footing-container {
 margin-top: 375px;
 background-color: #F2F2F2;
@@ -128,7 +138,7 @@ height: 500px;
 width: 1950px;
 padding-top: 10px;
 }
-
+/* Advertising link in footer */
 .footer_advert {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -136,59 +146,46 @@ padding-top: 10px;
     font-size: 14px;
     padding-bottom: 10px;
 }
-
+/* Business link in footer */
 .footer__business {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     padding-right: 25px;
     font-size: 14px;
 }
-
+/* How search works in footer */
 .footer__searchWorks {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     padding-right: 1295px;
     font-size: 14px;
 }
-
+/* Privacy link in footer */
 .footer__privacy {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     padding-right: 25px;
     font-size: 14px;
 }
-
+/* Terms link in footer */
 .footer__terms {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     padding-right: 25px;
     font-size: 14px;
 }
-
+/* Settings link in footer */
 .footer__settings {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
-#content-spacing{  /* footer spacing */
-    border:none;
-    height:10px;
-  }
-  a:visited {
+/* After a link's been visited, it will remain its initial color */
+a:visited {
     text-decoration: none;
     color: darkslategrey;
    }
+/* While hovering over a link, a line will appear underneath the link */
 a:hover {
     text-decoration: underline;
-}
-input.search__bar {
-    padding: 0 20px;
-}
-
-#feeling-lucky-response {
-    margin-left: 825px;
-    padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: darkslategrey;
 }
